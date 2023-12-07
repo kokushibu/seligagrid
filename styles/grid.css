@@ -1,0 +1,44 @@
+.Imagem{
+    width: 80px!important;
+    height: 80px!important;
+    border-top: 5px solid rgb(28, 26, 32);
+    border-left: 5px solid rgb(28, 26, 32);
+    border-right: 5px solid rgb(28, 26, 32);
+    border-bottom: 5px solid rgb(28, 26, 32);
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    text-align: center;
+}
+.gridimg{
+    background-color: rgb(5, 97, 151)
+}
+@media  screen and (min-width: 1024px ) {
+    .gridimg{
+        background-color: rgb(5, 97, 151)
+    }
+    .Imagem{
+        border-top: 10px dashed rgb(211, 206, 206);
+        border-left: 10px dashed rgb(0, 0, 0);
+        border-right: 10px dashed rgb(94, 175, 18);
+        border-bottom: 10px dashed rgb(0, 0, 0);
+        width: 180px !important;
+        height: 160px !important;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .secao__banner{
+        width: 100%;
+        display: block;
+    }
+}
